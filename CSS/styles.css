@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+   
+    margin: 3rem 5%;
+    font-family: 'Markazi Text', serif;
+    background-color:rgb(225, 233, 233);
+    font-size: 12px;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #3c3734;
+    border-radius: 1rem; 
+    
+}
+nav li {
+    display: inline-block;
+    font-size: 1.75rem;
+    padding: 0.6rem;  
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    position: relative; 
+    z-index: 1;
+    transition: background-color 0.5s ease-out 100ms;
+}
+nav a:hover {
+    background-color: rgb(225, 233, 233);
+    border-radius: 15%;
+    color: #3c3734;
+}
+
+.background-image {
+    background: url(../images/pasta-promotion.jpg) top / cover no-repeat;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.promotion-paragraph {
+    width: 75%;
+    font-size: 1rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+section:nth-of-type(1) {
+    flex-direction: column;
+  }
+  
+article {
+    flex: 1;
+    min-width: 250px;
+}
+.background-image article {
+    flex: auto;
+}
+.restaurant-details {
+    background-color: #ffeae0;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    position: relative;
+    
+    
+}
+.restaurant-details h2, p {
+    padding: 1rem;
+}
+.restaurant-details a {
+    position: absolute;
+    bottom: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+.restaurant-details a:hover {
+    background-color: #3c3734;
+    color: #ffeae0;
+    border-radius: 10%;
+}
+.restaurant-details img {
+    display: flex;
+    max-width: 100%;
+    width: 85%;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 0.75rem;
+    transition: transform .2s;
+}
+.restaurant-details img:hover {
+    transform: scale(1.1);
+}
+.restaurant-details p {
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    
+}
+.restaurant-details ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    padding-top: 25px;
+}
+footer img {
+    width: 3rem;
+    
+}
+footer div p {
+    text-align: right;
+    border-top: 2px solid black;
+    
+    
+  
+}
+
